@@ -5,19 +5,20 @@ Sistem pengatur lalu lintas otomatis berbasis Arduino Uno yang dirancang untuk m
 ---
 
 ## 📸 Preview Sistem
-
-
+<img width="1536" height="632" alt="CrossTrafficLight" src="https://github.com/user-attachments/assets/2ec02b66-0d61-4b2b-83fb-6fe24de7e54b" />
 *Simulasi rangkaian menggunakan Tinkercad/Proteus.*
+
+
+**Link simulasi**: https://www.tinkercad.com/things/40u6jjuHgUk-crosstraffictlight/editel?returnTo=%2Fthings%2F40u6jjuHgUk-crosstraffictlight&sharecode=4VWdHlo8rfN1ICCJo5cJbgR-PWbb2RGlUbDUBzBzf64
 
 ---
 
 ## ✨ Fitur Utama
 
 - **4-Way Intersection Control**: Manajemen lalu lintas penuh untuk empat arah mata angin.
-- **Siklus Realistis**:
-  - **Hijau**: 5 detik untuk kelancaran arus.
-  - **Kuning Berkedip**: Peringatan transisi (3x kedipan).
-  - **Kuning Statis**: Persiapan berhenti (2 detik).
+- **Siklus**:
+  - **Hijau**: Menyala 5 detik.
+  - **Kuning**: Peringatan transisi (3x kedipan), Persiapan berhenti (2 detik).
   - **Merah**: Berhenti total saat jalur lain aktif.
 - **Modular Code**: Menggunakan fungsi `playCross()` untuk efisiensi dan kemudahan modifikasi.
 
